@@ -239,63 +239,45 @@ export type SiteConfig = {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Free For Charity',
-  tagline: 'Reduce Costs, Increase Impact',
-  mission:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+  name: 'Bharathidasan Tamil School',
+  tagline: 'Nonprofit Organization',
+  mission: 'Enable interested children and adults to read, write, and speak the Tamil language.',
   // Empty = a charity's Donate / Volunteer sections email contactEmail instead.
-  donationUrl: '',
+  donationUrl: 'https://www.zeffy.com/en-US/donation-form/learn-tamil',
   volunteerUrl: '',
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'Enable interested children and adults to read, write, and speak the Tamil language.',
   shortDescription:
-    'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'Enable interested children and adults to read, write, and speak the Tamil language.',
   // Bare origin only (drift-check enforced). The template deploys to the
   // GitHub Pages default URL; the /FFC-IN-FFC_Single_Page_Template subpath
   // comes from NEXT_PUBLIC_BASE_PATH, which siteUrl() folds in at build time.
   // A fork with a custom domain sets its own origin here (and no basePath).
   url: 'https://freeforcharity.github.io',
-  twitterHandle: '@freeforcharity',
-  contactEmail: 'clarkemoyer@freeforcharity.org',
-  keywords: [
-    'nonprofit',
-    'charity',
-    'volunteer',
-    'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
-  ],
+  twitterHandle: '',
+  contactEmail: 'bts.scv@gmail.com',
+  keywords: ['nonprofit', 'charity', 'donate', 'volunteer', 'Bharathidasan Tamil School'],
   themeColor: '#ffffff',
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
   social: [
-    { label: 'Facebook', href: 'https://www.facebook.com/freeforcharity' },
-    { label: 'X (Twitter)', href: 'https://x.com/freeforcharity1' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/freeforcharity/' },
-    { label: 'GitHub', href: 'https://github.com/FreeForCharity/FFC-IN-FFC_Single_Page_Template' },
+    { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61594927271402' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/143949611/' },
   ],
-  ein: '46-2471893',
-  foundingDate: '2014',
+  ein: '42-3623982',
   nonprofitStatus: 'https://schema.org/Nonprofit501c3',
-  phone: { display: '(520) 222-8104', tel: '5202228104' },
+  phone: { display: '8184728878', tel: '8184728878' },
   addresses: [
     {
       label: 'Main Address',
-      lines: ['4030 Wake Forrest Road', 'Suite 349', 'Raleigh, NC 27609'],
+      lines: ['19722 Lanfranca Dr, Santa Clarita, CA 91350-3895'],
       mapUrl:
-        'https://www.google.com/maps/search/?api=1&query=4030+Wake+Forrest+Road+Suite+349+Raleigh+NC+27609',
-    },
-    {
-      label: 'PA Office Address',
-      lines: ['301 Science Park Road, Suite 119', 'State College, PA 16803'],
-      mapUrl:
-        'https://www.google.com/maps/place/Free+For+Charity/@40.7768455,-77.8963305,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea944b44a2e01:0x6fc2d6bf09e00a0f!8m2!3d40.7768415!4d-77.8937556!16s%2Fg%2F11vzvbl2d7?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
+        'https://www.google.com/maps/search/?api=1&query=19722%20Lanfranca%20Dr%2C%20Santa%20Clarita%2C%20CA%2091350-3895',
     },
   ],
   guidestar: {
-    profileUrl: 'https://www.guidestar.org/profile/46-2471893',
+    profileUrl: 'https://www.guidestar.org/profile/42-3623982',
     directProfileUrl:
-      'https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742',
+      'https://app.candid.org/profile/16742964/bharathidasan-tamil-school-42-3623982',
   },
   supportedBy: {
     name: 'Free For Charity',
@@ -304,11 +286,6 @@ export const siteConfig: SiteConfig = {
     legalContactName: 'Clarke Moyer',
     legalContactEmail: 'clarkemoyer@freeforcharity.org',
     cookieContactEmail: 'clarkemoyer@freeforcharity.org',
-  },
-  parentOrg: {
-    name: 'Free For Charity',
-    url: 'https://freeforcharity.org',
-    hubUrl: 'https://freeforcharity.org/hub/',
   },
   taxStatusLabel: 'a US 501c3 Non Profit',
   sections: {
@@ -323,6 +300,10 @@ export const siteConfig: SiteConfig = {
     eventsFacebookPageUrl: 'https://www.facebook.com/freeforcharity',
     microsoftFormUrl: 'https://forms.office.com/r/vePxGq6JqG',
   },
+
+  // Footer-standard fields still awaiting the charity; each renders a visible
+  // 'awaiting information' placeholder until it is filled in.
+  pending: ['volunteerUrl', 'team'],
 }
 
 /**

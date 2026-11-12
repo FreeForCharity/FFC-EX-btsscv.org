@@ -1,0 +1,30 @@
+{
+  "domain": "btsscv.org",
+  "charityName": "Bharathidasan Tamil School",
+  "websiteSituation": "New charity domain name and new charity website",
+  "currentWebsiteUrl": "https://bharathidasan-tamil-school.netlify.app/",
+  "domainRegistrar": "No domain yet",
+  "requesterGitHubUsername": "clarkemoyer",
+  "technicalPocGitHubUsername": "",
+  "cloudflareZoneControlled": false,
+  "footer": {
+    "email": "bts.scv@gmail.com",
+    "phone": "8184728878",
+    "address": "19722 Lanfranca Dr, Santa Clarita, CA 91350-3895",
+    "ein": "42-3623982",
+    "irsStatus": "501(c)(3) (approved)",
+    "guideStarProfileUrl": "https://www.guidestar.org/profile/42-3623982",
+    "guideStarDirectProfileUrl": "https://app.candid.org/profile/16742964/bharathidasan-tamil-school-42-3623982",
+    "socialLinks": [
+      "facebook: https://www.facebook.com/profile.php?id=61594927271402",
+      "linkedin: https://www.linkedin.com/company/143949611/"
+    ],
+    "mission": "Enable interested children and adults to read, write, and speak the Tamil language.",
+    "donationUrl": "https://www.zeffy.com/en-US/donation-form/learn-tamil",
+    "volunteerUrl": ""
+  },
+  "leadership": [],
+  "generatedUtc": "2026-11-12T22:41:23.0174596Z",
+  "pendingFields": ["volunteerUrl", "team"],
+  "pendingRendered": true
+}
