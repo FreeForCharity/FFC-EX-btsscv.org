@@ -5,6 +5,10 @@
 // member's card links to it. There are no photos: cards render an initials
 // monogram, so a forking charity never has to source or host portrait images.
 
+import logeshVaradan from './team/logesh-varadan.json'
+import anbarasuSubramonian from './team/anbarasu-subramonian.json'
+import senthilrajanMockian from './team/senthilrajan-mockian.json'
+
 export type TeamMember = {
   /** Full name; the first + last initials seed the avatar monogram. */
   name: string
@@ -18,7 +22,7 @@ export type TeamMember = {
   linkedinUrl?: string
 }
 
-export const team: TeamMember[] = []
+export const team: TeamMember[] = [logeshVaradan, anbarasuSubramonian, senthilrajanMockian]
 
 // `team` is assembled from a fixed list of JSON imports, so its length never
 // drops to 0 when a fork blanks those JSON files (rather than deleting entries).

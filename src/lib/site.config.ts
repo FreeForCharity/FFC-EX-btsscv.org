@@ -240,38 +240,50 @@ export type SiteConfig = {
 
 export const siteConfig: SiteConfig = {
   name: 'Bharathidasan Tamil School',
-  tagline: 'Nonprofit Organization',
-  mission: 'Enable interested children and adults to read, write, and speak the Tamil language.',
+  tagline: 'Learn Tamil. Live Our Heritage.',
+  mission:
+    'Enable children and adults to read, write, and speak the Tamil language, and preserve and promote Tamil language and culture through educational, social, literary, and cultural activities.',
   // Empty = a charity's Donate / Volunteer sections email contactEmail instead.
   donationUrl: 'https://www.zeffy.com/en-US/donation-form/learn-tamil',
+  // Pending: the application gave an Idealist admin link, not a public page.
   volunteerUrl: '',
   description:
-    'Enable interested children and adults to read, write, and speak the Tamil language.',
+    'Bharathidasan Tamil School is a nonprofit, volunteer-run language school dedicated to teaching Tamil to children in Santa Clarita. We strive to nurture Tamil language skills, celebrate our rich cultural heritage, and build a strong community for future generations.',
   shortDescription:
-    'Enable interested children and adults to read, write, and speak the Tamil language.',
-  // Bare origin only (drift-check enforced). The template deploys to the
-  // GitHub Pages default URL; the /FFC-IN-FFC_Single_Page_Template subpath
-  // comes from NEXT_PUBLIC_BASE_PATH, which siteUrl() folds in at build time.
-  // A fork with a custom domain sets its own origin here (and no basePath).
+    'Bharathidasan Tamil School is a nonprofit, volunteer-run school in Santa Clarita dedicated to teaching Tamil language, preserving culture, and inspiring the next generation.',
+  // Bare origin only (drift-check enforced). The site deploys to the GitHub
+  // Pages default URL until its own domain (btsscv.org) is connected; the
+  // /FFC-EX-btsscv.org subpath comes from NEXT_PUBLIC_BASE_PATH, which
+  // siteUrl() folds in at build time.
   url: 'https://freeforcharity.github.io',
   twitterHandle: '',
   contactEmail: 'bts.scv@gmail.com',
-  keywords: ['nonprofit', 'charity', 'donate', 'volunteer', 'Bharathidasan Tamil School'],
-  themeColor: '#ffffff',
+  keywords: [
+    'Learn Tamil',
+    'Tamil school',
+    'Tamil language',
+    'Tamil culture',
+    'Santa Clarita',
+    'Bharathidasan Tamil School',
+    'nonprofit',
+  ],
+  themeColor: '#2E5D46',
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
   social: [
     { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61594927271402' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/company/143949611/' },
   ],
   ein: '42-3623982',
+  foundingDate: '2026',
   nonprofitStatus: 'https://schema.org/Nonprofit501c3',
-  phone: { display: '8184728878', tel: '8184728878' },
+  phone: { display: '(818) 472-8878', tel: '+18184728878' },
+  // City and state only, as the charity entered them for its footer. No
+  // street address is published.
   addresses: [
     {
-      label: 'Main Address',
-      lines: ['19722 Lanfranca Dr, Santa Clarita, CA 91350-3895'],
-      mapUrl:
-        'https://www.google.com/maps/search/?api=1&query=19722%20Lanfranca%20Dr%2C%20Santa%20Clarita%2C%20CA%2091350-3895',
+      label: 'Location',
+      lines: ['Santa Clarita, CA'],
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=Santa%20Clarita%2C%20CA',
     },
   ],
   guidestar: {
@@ -303,7 +315,7 @@ export const siteConfig: SiteConfig = {
 
   // Footer-standard fields still awaiting the charity; each renders a visible
   // 'awaiting information' placeholder until it is filled in.
-  pending: ['volunteerUrl', 'team'],
+  pending: ['volunteerUrl'],
 }
 
 /**
