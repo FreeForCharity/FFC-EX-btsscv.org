@@ -269,8 +269,9 @@ export const siteConfig: SiteConfig = {
   addresses: [
     {
       label: 'Main Address',
-      lines: ['Santa Clarita, CA'],
-      mapUrl: 'https://www.google.com/maps/search/?api=1&query=Santa%20Clarita%2C%20CA',
+      lines: ['19722 Lanfranca Dr, Santa Clarita, CA 91350-3895'],
+      mapUrl:
+        'https://www.google.com/maps/search/?api=1&query=19722%20Lanfranca%20Dr%2C%20Santa%20Clarita%2C%20CA%2091350-3895',
     },
   ],
   guidestar: {
